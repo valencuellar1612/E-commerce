@@ -1,0 +1,43 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f3f0f0;
+    border-radius: 15px;
+}
+.login__welcom{
+    text-align: center;
+    color: #5e5c5c;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.login__email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.login__password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.login__btn{
+    width: 180px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #f85555;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
