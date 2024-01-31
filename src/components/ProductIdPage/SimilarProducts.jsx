@@ -8,7 +8,7 @@ const SimilarProducts = ({ categoryId, idProd }) => {
 
     useEffect(()=> {
         if(categoryId){
-            const url = `http://localhost:8080/products?categoryId=${categoryId}`;
+            const url = `https://e-commerce-f0b0.onrender.com/products?categoryId=${categoryId}`;
             getProductsByCategory(url);
         }
     }, [categoryId]);

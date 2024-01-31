@@ -8,7 +8,7 @@ const FilterCategory = ({ setCategorySelected }) => {
 
 
     useEffect(()=> {
-        const url = 'http://localhost:8080/categories'
+        const url = 'https://e-commerce-f0b0.onrender.com/categories'
         getCategories(url)
     }, []);
 

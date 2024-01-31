@@ -21,7 +21,7 @@ const CartPage = () => {
   }, 0)
 
   const handlePurchase = () => {
-    const url = 'http://localhost:8080/purchases'
+    const url = 'https://e-commerce-f0b0.onrender.com/purchases'
     axios.post(url, '', getConfifToken()
     )
     .then(res => {

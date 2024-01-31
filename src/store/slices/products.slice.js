@@ -14,7 +14,7 @@ export const { setProducts } = productsSlice.actions
 export default productsSlice.reducer
 
 export const getProductsThunk = () => (dispatch)=>{
-    const url = 'http://localhost:8080/products'
+    const url = 'https://e-commerce-f0b0.onrender.com/products'
     axios.get(url)
         .then(res =>dispatch (setProducts(res.data)))
         .catch(err => console.log(err))
